@@ -1,0 +1,24 @@
+{
+	"robot" : {
+		"center of mass" : {
+		"type" : "centerOfMass",
+		"location" : ["0","0"],
+		"mass" : "3"
+		},
+		"motor1" : {
+			"type" : "motor",
+			"location" : ["0","0.289"],
+			"direction" : ["-1","0"]
+		},
+		"motor2" : {
+			"type" : "motor",
+			"location" : ["0.25","-0.096"],
+			"direction" : ["0.5","0.866"]
+		},
+		"motor3" : {
+			"type" : "motor",
+			"location" : ["-0.25","-0.096"],
+			"direction" : ["0.5","-0.866"]
+		}
+	}
+}

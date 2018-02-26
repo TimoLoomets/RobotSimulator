@@ -1,0 +1,124 @@
+{
+	"robot" : {
+		"center of mass" : {
+		"type" : "centerOfMass",
+		"location" : [0.125, 0.015],
+		"mass" : 0.15,
+		"rotational inertia" : 0.00000003
+		},
+		"motor1" : {
+			"type" : "motor",
+			"location" : [0.015,0.015],
+			"direction" : [0,1],
+			"stall torque" : 0.01,
+			"max rpm" : 9000,
+			"reaction force" : 0.3675,
+			"motor friction" : 0.3,
+			"wheel friction" : 1,
+			"wheel diameter" : 0.03
+		},
+		"motor2" : {
+			"type" : "motor",
+			"location" : [0.235,0.015],
+			"direction" : [0,1],
+			"stall torque" : 0.01,
+			"max rpm" : 9000,
+			"reaction force" : 0.3675,
+			"motor friction" : 0.3,
+			"wheel friction" : 1,
+			"wheel diameter" : 0.03
+		},
+		"sensor0" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.13336771,0.247349]
+		},
+		"sensor1" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.1500594,0.246146]
+		},
+		"sensor2" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.1666214,0.243744]
+		},
+		"sensor3" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.1829678,0.240158]
+		},
+		"sensor4" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.1990138,0.235405]
+		},
+		"sensor5" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.2146764,0.22951]
+		},
+		"sensor6" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.229874,0.222503]
+		},
+		"sensor7" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.244529,0.214422]
+		},
+		"sensor8" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.11663229,0.247349]
+		},
+		"sensor9" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.0999406,0.246146]
+		},
+		"sensor10" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.0833786,0.243744]
+		},
+		"sensor11" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.0670322,0.240158]
+		},
+		"sensor12" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.0509862,0.235405]
+		},
+		"sensor13" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.0353236,0.22951]
+		},
+		"sensor14" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.020126,0.222503]
+		},
+		"sensor15" : {
+			"type" : "sensor",
+			"sensorType" : "light",
+			"location" : [0.005471,0.214422]
+		},
+		"support1" : {
+			"type" : "frictionPoint",
+			"reaction force" : 0.3675,
+			"friction" : 0.1,
+			"location" : [0.005471,0.204422]
+		},
+		"support2" : {
+			"type" : "frictionPoint",
+			"reaction force" : 0.3675,
+			"friction" : 0.1,
+			"location" : [0.244529,0.204422]
+		}
+	}
+}
